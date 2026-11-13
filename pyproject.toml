@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tracelens"
+version = "0.1.0"
+description = "Self-hosted observability and evaluation dashboard for LLM apps"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi==0.115.6",
+    "uvicorn==0.32.1",
+    "httpx==0.28.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["tracelens*"]
+
+[tool.setuptools.package-data]
+tracelens = ["static/*"]
