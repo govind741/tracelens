@@ -22,4 +22,4 @@ Python 3.9+, FastAPI, SQLite, vanilla JS dashboard.
 
 ## License
 
-To be decided.
+MIT. See [LICENSE](LICENSE).
